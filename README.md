@@ -148,6 +148,18 @@ Analyze the image for hidden data.
 
 Decode the hidden flag.
 
-7. Conclusion
+7.Challange Description 
+A web application implements a broken session mechanism.
+
+• A new session token is generated on every reload  
+• The session token is exposed to the client 
+• The flag is user-specific and time-based  
+• Flags rotate every 60 seconds  
+
+Challenge URL:http://127.0.0.1:8000
+
+Goal:Analyze the application behavior and submit the correct flag before it expires.
+
+9. Conclusion
 
 This project demonstrates how multiple cybersecurity challenges can be implemented within a dynamic CTF environment. By combining technologies such as Docker, CTFd, Flask, and modern cryptographic techniques, the system provides realistic and interactive challenges for participants. The dynamic flag generation ensures fairness and prevents solution sharing between teams.
