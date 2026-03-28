@@ -8,12 +8,10 @@ Dynamic CTF Challenge Platform Implementation
 This project focuses on the development and deployment of multiple dynamic Capture The Flag (CTF) challenges using the CTFd platform. The challenges were designed to simulate real-world cybersecurity scenarios and encourage participants to apply skills in cryptography, web security, steganography, OSINT, and network forensics. To ensure scalability and isolation, the platform was deployed using Docker containers. Ngrok was used to expose the locally hosted challenge server to the internet, allowing remote access for participants.
 
 2. Dynamic Steganography Challenge
-
 2.1 Overview
 This challenge requires participants to extract a hidden flag from an image file using steganography techniques. The flag is embedded using the steghide tool and protected with a password.
 
 2.2 Dynamic Mechanism
-
 To prevent flag sharing between participants, the system dynamically generates a new flag and password every time the challenge page refreshes. The new flag is embedded into the image automatically before being delivered to the participant.
 
 2.3 Tools Used
@@ -160,6 +158,6 @@ Challenge URL:http://127.0.0.1:8000
 
 Goal:Analyze the application behavior and submit the correct flag before it expires.
 
-9. Conclusion
+8. Conclusion
 
 This project demonstrates how multiple cybersecurity challenges can be implemented within a dynamic CTF environment. By combining technologies such as Docker, CTFd, Flask, and modern cryptographic techniques, the system provides realistic and interactive challenges for participants. The dynamic flag generation ensures fairness and prevents solution sharing between teams.
