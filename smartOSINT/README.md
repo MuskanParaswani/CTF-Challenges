@@ -28,8 +28,7 @@ python3 app.py
 ```
 
 Open:
-http://127.0.0.1:5002
-
+goast persona :  https://flag-policies-park-marine.trycloudflare.com
 ## Notes
 
 * Dynamic flag based on user input
