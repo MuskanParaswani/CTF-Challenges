@@ -1,3 +1,4 @@
+https://sky-strips-comes-cyber.trycloudflare.com
 This challenge simulates insecure role validation combined with weak MD5-based admin token verification.
 
 Users must:
