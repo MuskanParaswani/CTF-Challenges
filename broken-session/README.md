@@ -4,4 +4,4 @@ Run:
 docker-compose up --build
 
 Open:
-http://localhost:5000
+https://among-fixed-glasses-metals.trycloudflare.com
